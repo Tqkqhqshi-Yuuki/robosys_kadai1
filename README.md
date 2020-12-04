@@ -23,7 +23,7 @@ echo 1 > /dev/myled0
 5秒間青色に点灯後、赤色に変化し、時間経過に連れて点滅の感覚が狭くなる。以下が実際に行った際の動画である。  
 https://youtu.be/WNoGf5vTlzc  
 # おまけ  
-echo 3 > /dev/myled0を実行すると８色に発光し、echo 0 > /dev/myled0で終了する。  
+echo 3 > /dev/myled0を実行すると７色に発光し、echo 0 > /dev/myled0で終了する。  
 https://youtu.be/f9SzlwmooI4  
   
 # #2.マリオカートのスタート信号機  
