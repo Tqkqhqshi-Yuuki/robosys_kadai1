@@ -21,16 +21,16 @@ git clone https://github.com/Tqkqhqshi-Yuuki/robosys_kadai1.git
 `make`  
 `sudo insmod myled.ko`  
 `sudo chmod 666 /dev/myled0`  
--カラータイマー実行の場合  
+- カラータイマー実行の場合  
 `echo 1 > /dev/myled0`  
--信号機実行の場合  
+- 信号機実行の場合  
 `echo 2 > /dev/myled0`←開始  
 `echo 0 > /dev/myled0`←終了  
 # 実行結果　　
--ウルトラマンのカラータイマー    
+- ウルトラマンのカラータイマー    
 5秒間青色に点灯後、赤色に変化し、時間経過に連れて点滅の感覚が狭くなる。以下が実際に行った際の動画である。  
 https://youtu.be/WNoGf5vTlzc  
--マリオカートの信号機   
+- マリオカートの信号機   
 赤色LEDが1秒おきに発効後、青色LEDが発行し、同時に赤色LEDが消灯する。以下は実際に行った際の動画である。  
 https://youtu.be/u2dvZ_mvWVo  
 # おまけ  
