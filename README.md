@@ -34,7 +34,7 @@ https://youtu.be/WNoGf5vTlzc
 赤色LEDが1秒おきに発効後、青色LEDが発行し、同時に赤色LEDが消灯する。以下は実際に行った際の動画である。  
 https://youtu.be/u2dvZ_mvWVo  
 ## おまけ  
-echo 3 > /dev/myled0を実行すると７色に発光し、echo 0 > /dev/myled0で終了する。  
+`echo 3 > /dev/myled0`を実行すると７色に発光し、`echo 0 > /dev/myled0`で終了する。  
 https://youtu.be/f9SzlwmooI4  
 ##  ライセンス  
 [GNU GENERAL PUBLIC LICENSE Version 3](https://github.com/Tqkqhqshi-Yuuki/robosys_kadai1/blob/main/COPYING)
