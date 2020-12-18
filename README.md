@@ -14,7 +14,7 @@
 [カラータイマー]:5mm RGB LEDのカソードをGNDピン、赤をGPIO25ピン、緑をGPIO24ピン、青をGPIO23ピンに接続する。  
 [信号機]:5mm LED 赤×3をGPIO4・5・6ピン、青×3をGPIO14・15・16ピンにそれぞれ接続する。  
 ## 導入方法  
-git clone https://github.com/Tqkqhqshi-Yuuki/robosys_kadai1.git  
+`git clone https://github.com/Tqkqhqshi-Yuuki/robosys_kadai1.git`  
 ## 実行方法  
 以下のコマンドを上から順番に行う。  
 `cd myled`  
